@@ -10,5 +10,8 @@
     font-family: Gooper, sans-serif;
 }
 
+.gradient_text{
+    @apply bg-gradient-to-r from-red-400 to-blue-400 bg-clip-text text-transparent;
+}
 
   
