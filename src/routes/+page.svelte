@@ -6,11 +6,11 @@
 <main class="relative pt-16 bg-zinc-900 w-full h-screen">
 
     <div class="
-        absolute top-0 left-0 z-[3] w-dvw h-dvh
-        bg-[url('$lib/noise.png')] opacity-40
+        absolute top-0 left-0 z-[1] w-dvw h-dvh
+        bg-[url('$lib/noise.svg')] opacity-40
     "></div>
 
-    <div class="absolute top-0 left-0 z-[3] w-dvw h-dvh">
+    <div class="absolute top-0 left-0 z-[1] w-dvw h-dvh">
         <Blob class="
             bg-accent-300
             w-2/6 h-2/5 max-w-lg
@@ -39,7 +39,7 @@
     </div>
 
     
-    <div class="relative z-[4] px-[15%] sm:pt-[50px]" >
+    <div class="relative z-[2] px-[15%] sm:pt-[50px]" >
 
         <div class="
         pt-8 leading-tight tracking-widest
@@ -78,38 +78,3 @@
     </div>
 
 </main>
-
-
-<style>
-
-    /* .makeRotation{
-        animation: rotomove 3s infinite;
-    } */
-
-
-
-    /* @keyframes rotomove {
-    0% {
-        transform: rotate(0deg) translateX(0px) translateY(0px);
-        animation-timing-function: ease-in-out;
-    }
-    25% {
-        transform: rotate(90deg) translateX(50px) translateY(50px);
-        animation-timing-function: ease-in-out;
-    }
-    50% {
-        transform: rotate(180deg) translateX(100px) translateY(100px);
-        animation-timing-function: ease-in-out;
-    }
-    75% {
-        transform: rotate(270deg) translateX(50px) translateY(50px);
-        animation-timing-function: ease-in-out;
-    }
-    100% {
-        transform: rotate(360deg) translateX(0px) translateY(0px);
-        animation-timing-function: ease-in-out;
-    }
-} */
-
-
-</style>
