@@ -1,11 +1,12 @@
 <script>
     import Blob from "../components/blob.svelte";
+    import PopText from "../components/PopText.svelte";
 
 </script>
 
 <main class="relative pt-16 bg-zinc-900">
 
-    <div class="h-dvh">
+    <div class="w-full h-dvh">
         
         <div class="
         absolute top-0 left-0 z-[1] w-full h-dvh
@@ -81,7 +82,11 @@
     
     </div>
 
-    <div class="h-dvh bg-zinc-900">
+    <div class="w-full h-dvh bg-zinc-900">
+
+        <div class="relative min-h-32">
+            <PopText class="text-zinc-600" text="COFOLIOS IDEA" />
+        </div>
 
     </div>
 
