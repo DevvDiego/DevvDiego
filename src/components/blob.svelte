@@ -1,7 +1,7 @@
 <script>
-    let className = ""
+    let { class: className = "" } = $props();
     // This lets me use class as normal outside the component
-    export {className as class}
+    
 </script>
 
 <div class="blob {className}">
