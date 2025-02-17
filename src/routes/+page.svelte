@@ -4,16 +4,16 @@
 
 </script>
 
-<main class="relative pt-16 bg-zinc-900">
+<main class="pt-16 bg-zinc-900">
 
-    <div class="w-full h-dvh">
+    <div class="relative w-dvw h-dvh">
         
         <div class="
-        absolute top-0 left-0 z-[1] w-full h-dvh
+        absolute top-0 left-0 z-[1] w-full h-full
         bg-[url('$lib/noise.svg')] opacity-40
         "></div>
 
-        <div class="absolute top-0 left-0 z-[1] w-full h-dvh">
+        <div class="absolute top-0 left-0 z-[1] w-full h-full">
             <Blob class="
                 bg-accent-300
                 w-2/6 h-2/5 max-w-lg
