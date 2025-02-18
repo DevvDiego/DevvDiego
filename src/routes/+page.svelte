@@ -1,12 +1,13 @@
 <script>
     import Blob from "../components/blob.svelte";
     import PopText from "../components/PopText.svelte";
+    import Card from "../components/Card.svelte";
 
 </script>
 
 <main class="pt-16 bg-zinc-900">
 
-    <div class="relative w-dvw h-dvh">
+    <div class="relative w-full h-lvh">
         
         <div class="
         absolute top-0 left-0 z-[1] w-full h-full
@@ -84,9 +85,10 @@
 
     <div class="w-full h-dvh bg-zinc-900">
 
-        <div class="relative min-h-32">
-            <PopText class="text-zinc-600" text="COFOLIOS IDEA" />
-        </div>
+        <Card src="https://picsum.photos/200/200" alt="">
+            <PopText text="HIGHLIGHTS" class="text-zinc-600"/>
+
+        </Card>
 
     </div>
 
