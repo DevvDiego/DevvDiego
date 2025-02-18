@@ -44,15 +44,19 @@
 
 </script>
 
-<h1 bind:this={texttag} class=" {className}
-    w-full
-    text-4xl sm:text-5xl font-black 
-    text-center tracking-widest
-    absolute -bottom-80 left-0
-    opacity-0 
+<div class="relative w-full h-14">
+    
+    <h1 bind:this={texttag} class=" {className}
+        w-full
+        text-4xl sm:text-5xl font-black 
+        text-center tracking-widest
+        absolute -bottom-80 left-0
+        opacity-0
 
-    transition-all duration-700 ease-in-out
+        transition-all duration-700 ease-in-out
 
-">
-    {text}
-</h1>
+    ">
+        {text}
+    </h1>
+
+</div>
